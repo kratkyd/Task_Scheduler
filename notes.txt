@@ -1,0 +1,12 @@
+-do input error properly (read up on error handling)
+-try to fit start time into the same schedule as the repeating one
+-from documentation /st default is current time, but without it it starts after the time set for interval, what?
+    -from "run program now" example, set the current time, do I really need to get current time from the task?
+    -run the program from the .py script directly, or create task in a minute or so?
+-run vscode as admin might not be a good idea
+-test for batch file
+-might have more to do on the error handling (error of invalid iso format handles itself, is it correct?)
+-should parameters be arguments or options?
+-don't know how to do --help properly
+-replace pandas with something smaller
+-what was shell=true, check=true in schtasks again?
