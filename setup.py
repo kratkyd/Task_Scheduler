@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='script',
+    name='schedule',
     #version='0.1.0',
     py_modules=['project.script',
                 'unit_testing.unit_test'    
