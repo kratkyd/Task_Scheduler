@@ -8,7 +8,7 @@ def test_validation():
     task = script.Task("name", dir+r"\..\project\script.py", "100", "P10H", True)
     assert task.validate()
 
-    task = script.Task("name", dir+r"\file.exe", "1000", "P30D12H5M", True)
+    task = script.Task("name", dir+r"\unit_test.py", "1000", "P30D12H5M", True)
     assert task.validate()
 
     task = script.Task("name", dir+r"\..\project\script.py", "2", "P2M", True)
