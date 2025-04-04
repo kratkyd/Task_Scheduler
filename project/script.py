@@ -28,7 +28,7 @@ class Task:
             if dt.total_seconds() <= 0:
                 raise ValueError("invalid duration")
             # Is duration greater or equal to interval (otherwise the program just runs immediately)
-            if int(self.interval) > dt.seconds:
+            if int(self.interval) > dt.total_seconds:
                 raise ValueError("Interval greater than duration")
         except ValueError as e:
             print(f"Error: {e}\n")
