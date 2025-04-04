@@ -47,7 +47,7 @@ class Task:
 
 
 # Click funciton defining the "schedule" command in setup.py
-# Creates Task object and creates a task if -d flag was not used
+# Creates Task object and creates a task if -d (--dryrun) flag was not used
 @click.command(help="""PATH should lead to a batch file to be executed.
                 INTERVAL is in seconds, DURATION in ISO8601
                 format (P10H11M for 10 hour and 11 minutes).""")
