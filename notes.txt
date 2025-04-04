@@ -1,4 +1,0 @@
--test for batch file
--replace pandas with something smaller
--what was shell=true, check=true in schtasks again?
--tests written at the end, probably not the best practice
